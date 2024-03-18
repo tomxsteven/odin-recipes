@@ -59,4 +59,52 @@ body.recipe-page {
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center;
+    color: whitesmoke;
+}
+
+.recipe-page,h1 {
+    padding: 10px 0 25px 0;
+}
+
+.recipe-img,figcaption {
+    padding: 5px 0 0 0;
+}
+
+div.intro {
+    width: 80%;
+    max-width: 650px;
+    min-width: 400px;
+    margin: auto;
+    padding-top: 20px;
+}
+
+div.recipe,
+div.intro h3,
+div.intro h4 {
+    text-align: left;
+}
+
+div.intro h3,
+div.intro h4 {
+    padding-left: 35px;
+}
+
+div.recipe.main {
+    margin: 1em;
+}
+
+.recipe.main,h3 {
+    padding: 0.5em 0 1em 0;
+}
+.recipe.main,.method {
+    padding-top: 1em;
+}
+
+.recipe.main ol {
+    list-style-position: inside;
+    padding-left: 22px;
+}
+
+.home-link {
+    padding-top: 20em;
 }
