@@ -9,6 +9,7 @@ body.homepage {
     background-image: url(./images/kitchen-background-1024x683.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    text-align: center;
 }
 
 .homepage h1 {
@@ -19,13 +20,6 @@ body.homepage {
     margin: 1.5em auto 1em auto;
     padding-top: 5px;
     border-radius: 5px;
-}
-
-h1,
-.recipe-img,
-.index-links,
-.home-link {
-    text-align: center;
 }
 
 .index-links {
@@ -57,3 +51,12 @@ h1,
     color: darkgray;
 }
 
+/* RECIPE PAGES */
+
+body.recipe-page {
+    background-attachment: fixed;
+    background-image: url(./images/blackboard-1072366_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
