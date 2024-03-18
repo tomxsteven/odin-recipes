@@ -62,11 +62,18 @@ body.recipe-page {
     color: whitesmoke;
 }
 
-.recipe-page,h1 {
+.recipe-page h1,
+.intro h2,
+.recipe.main h3 {
+    color: darksalmon;
+}
+
+.recipe-page h1 {
     padding: 10px 0 25px 0;
 }
 
 .recipe-img,figcaption {
+    font-size: 12px;
     padding: 5px 0 0 0;
 }
 
@@ -93,10 +100,12 @@ div.recipe.main {
     margin: 1em;
 }
 
-.recipe.main,h3 {
-    padding: 0.5em 0 1em 0;
+.recipe.main h3 {
+    font-style: italic;
+    padding: 0.5em 0 0.5em 0;
 }
-.recipe.main,.method {
+
+.recipe.main .method {
     padding-top: 1em;
 }
 
@@ -107,4 +116,16 @@ div.recipe.main {
 
 .home-link {
     padding-top: 20em;
+}
+
+.recipe-page,a:hover {
+    color: darksalmon;
+}
+
+.recipe-page a:active {
+    color: chocolate;
+}
+
+.recipe-page,a:visited {
+    color: darkgray;
 }
