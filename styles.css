@@ -39,15 +39,15 @@ body.homepage {
     margin-bottom: 3px;
 }
 
-.index-links,a:hover {
+.index-links a:hover {
     color: darksalmon;
 }
 
-.index-links,a:active {
+.index-links a:active {
     color: chocolate;
 }
 
-.index-links,a:visited {
+.index-links a:visited {
     color: darkgray;
 }
 
@@ -115,10 +115,10 @@ div.recipe.main {
 }
 
 .home-link {
-    padding-top: 20em;
+    margin-top: 20em;
 }
 
-.recipe-page,a:hover {
+.recipe-page a:hover {
     color: darksalmon;
 }
 
@@ -126,6 +126,6 @@ div.recipe.main {
     color: chocolate;
 }
 
-.recipe-page,a:visited {
+.recipe-page a:visited {
     color: darkgray;
 }
